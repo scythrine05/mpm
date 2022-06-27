@@ -33,6 +33,7 @@
     "react-native-safe-area-context": "^3.4.1",
     "react-native-screens": "^3.13.1",
     "react-native-skeleton-placeholder": "^5.0.0",
+    "react-native-splash-screen": "^3.3.0",
     "react-native-vector-icons": "^9.1.0",
     "typescript": "^4.6.2"
   },

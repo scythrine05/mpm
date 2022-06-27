@@ -11,7 +11,7 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import type {Node} from 'react';
 import {NavigationContainer, DefaultTheme} from '@react-navigation/native';
-//import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from 'react-native-splash-screen';
 
 //Navigations
 import MainStack from './navigation/mainStack';
@@ -34,9 +34,9 @@ const MyTheme = {
 };
 
 const App: () => Node = () => {
-  // React.useEffect(() => {
-  //   SplashScreen.hide();
-  // });
+  React.useEffect(() => {
+    SplashScreen.hide();
+  });
 
   return (
     <ConfirmProvider>

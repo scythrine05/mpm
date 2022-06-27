@@ -3,6 +3,8 @@ package com.santhal.mpm;
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
 
+import org.devio.rn.splashscreen.SplashScreen; // Splash
+
 public class MainActivity extends ReactActivity {
 
   /**
@@ -18,8 +20,8 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-    // here
-    super.onCreate(null);
+    SplashScreen.show(this);  
+    super.onCreate(savedInstanceState);
   }
 
 }
