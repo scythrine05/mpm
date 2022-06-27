@@ -4,8 +4,8 @@ buildscript {
     ext {
         buildToolsVersion = "30.0.2"
         minSdkVersion = 21
-        compileSdkVersion = 30
-        targetSdkVersion = 30
+        compileSdkVersion = 31
+        targetSdkVersion = 31
         ndkVersion = "21.4.7075529"
     }
     repositories {
@@ -18,7 +18,7 @@ buildscript {
         // in the individual module build.gradle files
 
 
-        classpath 'com.google.gms:google-services:4.3.10' // Firebase
+        classpath 'com.google.gms:google-services:4.3.12' // Firebase
     }
 }
 

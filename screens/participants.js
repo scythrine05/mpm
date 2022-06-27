@@ -10,7 +10,6 @@ export default function Participants({route}) {
   return (
     <SafeAreaView>
       <FlatList
-        style={styles.flatlist}
         data={item.people}
         renderItem={({item, index}) => <ListItem item={item} index={index} />}
         keyExtractor={(item, index) => index.toString()}
@@ -18,5 +17,3 @@ export default function Participants({route}) {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({});

@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "mpm",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
   "dependencies": {
     "@babel/preset-env": "^7.16.11",
     "@react-native-community/clipboard": "^1.5.1",
-    "@react-native-community/datetimepicker": "^6.0.1",
     "@react-native-firebase/app": "^14.5.1",
     "@react-native-firebase/auth": "^14.5.1",
     "@react-native-firebase/firestore": "^14.5.1",
