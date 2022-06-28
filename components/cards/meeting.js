@@ -57,8 +57,8 @@ export default function Meeting({item, index}) {
             <View style={styles.head}>
               <View>
                 <Text style={styles.title_text}>
-                  {item.title.length > 10
-                    ? item.title.substring(0, 10) + '...'
+                  {item.title.length > 30
+                    ? item.title.substring(0, 30) + '...'
                     : item.title}
                 </Text>
               </View>
