@@ -128,7 +128,11 @@ export default function Post({item, index}) {
             </View> */}
             <View style={styles.overlay} />
             <View style={styles.title}>
-              <Text style={styles.title_text}>{item.title}</Text>
+              <Text style={styles.title_text}>
+                {item.title.length > 40
+                  ? item.title.substring(0, 40) + '...'
+                  : item.title}
+              </Text>
 
               <TimeDifference />
 
